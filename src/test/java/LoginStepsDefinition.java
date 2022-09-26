@@ -73,6 +73,7 @@ WebDriver driver;
         System.setProperty("webdriver.chrome.driver","C:/melbarrak/Applications/intellijSeleniumJarAndDrivers/chromedriver_win32/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://ma.buynespresso.com/ma_fr/");
+
     }
 
     @When("^user fill username (.+) and password(.+)$")
